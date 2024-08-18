@@ -1,0 +1,12 @@
+/* .color {
+   
+    background-image: radial-gradient(closest-side, rgba(255, 230, 0, 0.21), #e7bbbb);
+    position: absolute;
+   
+} */
+ .circle{
+	width: 800px;
+	height: 800px;
+	background: linear-gradient(to bottom, red , green);
+	filter: blur(100px);
+ }

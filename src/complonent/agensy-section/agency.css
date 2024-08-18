@@ -4,9 +4,19 @@
     position: absolute;
    
 } */
- .circle{
-	width: 800px;
-	height: 800px;
-	background: linear-gradient(to bottom, red , green);
-	filter: blur(100px);
- }
+.circle {
+    width: 1000px;
+    height: 800px;
+    background: linear-gradient(to left, #d1d0f7, #f7f7ff);
+    filter: blur(80px);
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+@media (max-width: 768px) {
+    .circle {
+        display: none;
+    }
+}

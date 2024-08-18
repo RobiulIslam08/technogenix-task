@@ -81,7 +81,7 @@ const AgensySection = () => {
             <div className="circle"></div> {/* This is the gradient circle */}
             <div className="md:mt-24 lg:mt-28 mt-20 font-sans  relative z-10">
                 {/* heading */}
-                <div className="lg:w-[60%] md:w-[90%] w-[80%] text-center mx-auto">
+                <div className="lg:w-[60%] md:w-[90%] w-[90%] text-center mx-auto">
                     <h1 className="lg:text-[45px] md:text-[40px] leading-none tracking-tighter text-[36px] text-[#2d3958] font-bold">
                         Websites that tell your brand's story
                     </h1>
@@ -127,17 +127,17 @@ const AgensySection = () => {
 
                     {/* right side */}
                     <div className="flex-1 lg:pr-10  px-5  lg:pl-20">
-                        <h1 className="lg:text-[36px] text-[36px] lg:pb-9 font-extrabold text-[#2d3958] leading-10">
+                        <h1 className="lg:text-[36px] pt-24 lg:pt-7 text-[36px]  font-extrabold text-[#2d3958] leading-10">
                             We’re design-focused across every touchpoint or interaction
                         </h1>
-                        <p className="pb-12 text-[#7b88a8] text-lg">
+                        <p className="pb-12 pt-8 text-[#7b88a8] text-lg">
                             Everything we do and dream up has a solid design impact. We create human-centered enterprise software that has the polished, snappy feel of the best consumer apps.
                         </p>
 
                         {/* children div for flex fro */}
                         <div className="flex lg:flex-row flex-col justify-between gap-20 lg:gap-10">
                             {/* 1st card */}
-                            <div className="w-full lg:px-10  lg:w-[40%]">
+                            <div className="w-[80%]   lg:w-[40%]">
                                 <p className="p-6 bg-[#c8cdff] inline-block rounded-full">
                                     <FaPenNib size={20} className="rotate-90 text-[#8080f1]" />
                                 </p>
@@ -146,7 +146,7 @@ const AgensySection = () => {
                             </div>
 
                             {/* 2nd card */}
-                            <div className="lg:w-[40%] w-full lg:px-10">
+                            <div className="lg:w-[40%] w-[80%] ">
                                 <p className="p-6 bg-[#c8cdff] inline-block rounded-full">
                                     <FiCoffee size={20} className="text-[#8080f1]" />
                                 </p>

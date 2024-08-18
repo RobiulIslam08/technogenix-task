@@ -1,3 +1,5 @@
+import Hero from "./complonent/hero/Hero"
+// import Navbar from "./complonent/navbar/Navbar"
 
 
 
@@ -6,9 +8,9 @@ function App() {
 
   return (
     <>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      {/* <Navbar></Navbar> */}
+      <Hero></Hero>
+      dsfdskl
     </>
   )
 }

@@ -9,10 +9,10 @@ import './hero.css';
 const Hero = () => {
 	const [nav, setNav] = useState(false);
 	return (
-		<div className="font-sans lg:h-[543px] bg-hero bg-[#001c7f] lg:bg-[url('https://i.ibb.co/DV2DjX4/agency-bg-hero-min.jpg')]  lg:clip-bottom  bg-cover bg-center  w-full" style={{ backgroundPosition: 'center top -110px' }}>
+		<div className="font-sans lg:h-[548px] bg-hero bg-[#001c7f] lg:bg-[url('https://i.ibb.co/DV2DjX4/agency-bg-hero-min.jpg')]  clip-bottom  bg-cover bg-center  w-full" style={{ backgroundPosition: 'center top -110px' }}>
 
 			{/* navbar */}
-			<div className='flex  justify-between items-center pt-8 px-20 '>
+			<div className='flex  justify-between items-center pt-8 lg:px-20 px-5 '>
 				{/* 1st */}
 				<div className=''>
 					<img src="https://i.ibb.co/2WyvdR9/logo-light.png" alt="" />
@@ -21,7 +21,7 @@ const Hero = () => {
 				{/* second */}
 
 				<div className='hidden md:flex items-center gap-10' >
-					<div className='space-x-5'>
+					<div className='space-x-4'>
 						<button
 							type="button"
 							className="inline-flex justify-center items-center gap-x-1.5 rounded-md  px-3 py-2 text-base font-semibold text-white shadow-sm "
@@ -115,18 +115,18 @@ const Hero = () => {
 					</div>
 					<div className='text-white flex items-center gap-5'>
 						<div className=''>
-							<FiShoppingCart className='text-lg absolute' />
+							<FiShoppingCart className='text-[22px] absolute' />
 							<p className='relative left-3  rounded-full px-1 border-white border-[1px] text-[10px] bg-[#23c28c] -top-1 '>o</p>
 						</div>
-						<IoSearch className='text-lg' />
+						<IoSearch className='text-2xl' />
 					</div>
 				</div>
 
 
 				{/* small devise er jonno */}
 
-				<div onClick={() => setNav(!nav)} className="pr-4 z-10 cursor-pointer text-white md:hidden">
-					{nav ? <RxCross2 size={20} /> : <IoIosMenu size={20} />}
+				<div onClick={() => setNav(!nav)} className=" z-10 cursor-pointer text-white md:hidden">
+					{nav ? <RxCross2 size={25} /> : <IoIosMenu size={25} />}
 				</div>
 
 
@@ -136,7 +136,7 @@ const Hero = () => {
 			</div>
 			{
 				nav && (
-					<div className='bg-[#ffffff] h-screen flex flex-col'>
+					<div className='bg-[#ffffff] h-full space-y-4  flex flex-col'>
 						<button
 							type="button"
 							className="inline-flex justify-between items-center gap-x-1.5 rounded-md  px-3 py-2 text-base font-semibold text-[#2d3958] shadow-sm "
@@ -232,12 +232,12 @@ const Hero = () => {
 			}
 
 			{/* content */}
-			<div className='px-20 pt-10'>
-				<div>
-					<h1 className='text-[68px] font-extrabold text-white leading-none font-sans'>A Design & Branding <br /> Agency in <span className='bg-clip-text text-transparent bg-gradient-to-r from-[#857fff] to-[#ffabe6]'>New York</span>.</h1>
+			<div className='lg:px-20 px-6 pt-3 lg:text-left text-center lg:pt-10'>
+				<div className=''>
+					<h1 className='lg:text-[68px] text-[42px] font-extrabold text-white leading-none font-sans'>A Design & Branding <br />  Agency in <span className='bg-clip-text text-transparent bg-gradient-to-r from-[#857fff] to-[#ffabe6]'>New York</span>.</h1>
 					<p className='text-white text-lg pt-6'>We’re a digital product and UX agency in New York City. Strategy, design, and <br /> development across all platforms. Digital products that people love to use</p>
-					<div className='flex items-center gap-3 pt-14'>
-						<button className="bg-[#4c6fff] hover:bg-[#4569fa] text-white font-bold py-4 px-7 rounded-lg transition-transform transform hover:scale-95">
+					<div className='lg:flex hidden items-center gap-3 pt-14'>
+						<button className="bg-[#4c6fff] hover:bg-[#4569fa] text-white font-bold lg:py-4 py-3 px-4  lg:px-7 rounded-lg transition-transform transform hover:scale-95">
 							Get Started
 						</button>
 						<div className='flex items-center gap-2'>
@@ -246,8 +246,16 @@ const Hero = () => {
 						<p className='text-white'>How It Works</p>
 						</div>
 					</div>
+
+					{/* smmall devise a button dekhabe */}
+					<button className="lg:hidden my-12 bg-[#4c6fff] hover:bg-[#4569fa] text-white font-semibold  py-5 px-7  lg:px-7 rounded-lg transition-transform transform hover:scale-95">
+							Get Started
+						</button>
+					
 				</div>
+				
 			</div>
+			
 
 		</div>
 	);

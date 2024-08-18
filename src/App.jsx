@@ -1,5 +1,6 @@
+import AgensySection from "./complonent/agensy-section/AgensySection"
 import Hero from "./complonent/hero/Hero"
-// import Navbar from "./complonent/navbar/Navbar"
+import Navbar from "./complonent/navbar/Navbar"
 
 
 
@@ -8,9 +9,10 @@ function App() {
 
   return (
     <>
-      {/* <Navbar></Navbar> */}
       <Hero></Hero>
-      dsfdskl
+      <Navbar></Navbar>
+      <AgensySection></AgensySection>
+     
     </>
   )
 }

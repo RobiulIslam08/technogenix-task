@@ -3,22 +3,35 @@
 const SectionFive = () => {
 	return (
 		<div>
-			<div className="flex border mb-40 lg:flex-row flex-col justify-between bg-cover bg-left items-center bg-no-repeat  ">
+			<div className="flex mb-40 lg:flex-row flex-col justify-between bg-cover bg-left items-center bg-no-repeat  ">
 				{/* left side */}
-				<div className="flex-1  lg:pr-10  text-center lg:text-left px-5  ">
+				<div className="flex-1  lg:pr-40  text-center lg:text-left px-5   ">
 					<h1 className="lg:text-[36px] lg:pl-16 pt-24 lg:pt-7 text-[36px]  font-extrabold text-[#2d3958] leading-10">
-						Augment your brand, and heighten your business
+					Ready to get started with your new project today?
 					</h1>
 					<p className="pb-12 pt-8 lg:pl-16 text-[#7b88a8] text-lg">
-						dentify your authentic brand & shop elements through an in-depth exploration, receive unique strategies to clarify your vision, strengthen differentiation, and prime your company for growth.
+					Identify your authentic brand & shop elements through an in-depth exploration, receive unique strategies to clarify your vision, strengthen differentiation, and prime your company for growth..
 					</p>
-
-					{/* children div for flex fro */}
-					<div className="lg:pl-16">
-						<button className="bg-[#4c6fff]  hover:bg-[#111a4e] text-white font-bold lg:py-4 py-3 px-4 lg:px-7 rounded-lg transform transition-colors duration-500">
-							Get Started
+					
+					<form className="max-w-md mx-auto">
+					<div className="flex">
+						<input
+							type="email"
+							id="email"
+							className="flex-grow py-4 px-4 text-lg font-medium placeholder-[#757575] text-gray-900  bg-[#f4f3f6] npm run dev  focus:outline-none "
+							placeholder="Your email address "
+							required
+						/>
+						<button
+							type="submit"
+							className="flex-shrink-0 inline-flex items-center py-2.5 px-8 text-lg font-medium text-white bg-[#4c6fff] border border-blue-500 hover:bg-[#2f1b5f] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+						>
+							Sign Up
 						</button>
 					</div>
+				</form>
+				
+					
 				</div>
 				{/* right side */}
 				<div className="flex-1 lg:mb-40 relative border">

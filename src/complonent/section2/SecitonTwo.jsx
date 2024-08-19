@@ -5,7 +5,7 @@ import { FiLayout } from "react-icons/fi";
 const SecitonTwo = () => {
 
 	return (
-		<div className="bg-gradient-to-r clip clip-sm  pt-40 pb-40 mt-10 lg:mt-20 from-[#fad6f0ad] to-[#dbfdfe] mb-52 ">
+		<div className="bg-gradient-to-r clip clip-sm  pt-40 pb-40 mt-10 lg:mt-20 from-[#fad6f0ad] to-[#dbfdfe] mb-40 ">
 			<div className="">
 				{/* heading */}
 				<div className="flex lg:flex-row flex-col justify-between w-[89%] mx-auto">

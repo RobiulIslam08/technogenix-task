@@ -14,28 +14,28 @@ const Footer = () => {
 				{/* 2nd */}
 				<div className='lg:space-y-6 space-y-4 col-span-1  lg:mx-auto '>
 					<h1  className='text-[#ffffff] font-semibold text-sm lg:pt-0 pt-8'>Products</h1>
-					<p><a href="" className='text-[#a8a1b3] text-sm'>Unify App</a></p>
-					<p><a href="" className='text-[#a8a1b3] text-sm'>Page Builder	</a></p>
-					<p><a href="" className='text-[#a8a1b3] text-sm'>Templates</a></p>
-					<p><a href="" className='text-[#a8a1b3] text-sm'>Pricing</a></p>
+					<p><a href="" className='text-[#a8a1b3] text-sm hover:text-white transition-colors duration-300 ease-in'>Unify App</a></p>
+					<p><a href="" className='text-[#a8a1b3] text-sm hover:text-white transition-colors duration-300 ease-in'>Page Builder	</a></p>
+					<p><a href="" className='text-[#a8a1b3] text-sm hover:text-white transition-colors duration-300 ease-in'>Templates</a></p>
+					<p><a href="" className='text-[#a8a1b3] text-sm hover:text-white transition-colors duration-300 ease-in'>Pricing</a></p>
 				</div>
 
 				{/* 3rd */}
 				<div className='lg:space-y-6 space-y-4 col-span-1 lg:mx-auto'>
 					<h1 className='text-[#ffffff] font-semibold text-sm lg:pt-0 pt-8'>Resources</h1>
-					<p><a href="" className='text-[#a8a1b3] text-sm'>Design</a></p>
-					<p><a href="" className='text-[#a8a1b3] text-sm'>Inspiration</a></p>
-					<p><a href="" className='text-[#a8a1b3] text-sm'>Blog</a></p>
-					<p><a href="" className='text-[#a8a1b3] text-sm'>Jobs</a></p>
+					<p><a href="" className='text-[#a8a1b3] text-sm hover:text-white transition-colors duration-300 ease-in'>Design</a></p>
+					<p><a href="" className='text-[#a8a1b3] text-sm hover:text-white transition-colors duration-300 ease-in'>Inspiration</a></p>
+					<p><a href="" className='text-[#a8a1b3] text-sm hover:text-white transition-colors duration-300 ease-in'>Blog</a></p>
+					<p><a href="" className='text-[#a8a1b3] text-sm hover:text-white transition-colors duration-300 ease-in'>Jobs</a></p>
 				</div>
 
 				{/* 4th */}
 				<div className='lg:space-y-6 space-y-4 col-span-1 lg:mx-auto'>
 					<h1  className='text-[#ffffff] font-semibold text-sm lg:pt-0 pt-8'>Support</h1>
-					<p><a href="" className='text-[#a8a1b3] text-sm'>Documentation</a></p>
-					<p><a href="" className='text-[#a8a1b3] text-sm'>Help Desk	</a></p>
-					<p><a href="" className='text-[#a8a1b3] text-sm'>Video Guides</a></p>
-					<p><a href="" className='text-[#a8a1b3] text-sm'>Security</a></p>
+					<p><a href="" className='text-[#a8a1b3] text-sm hover:text-white transition-colors duration-300 ease-in'>Documentation</a></p>
+					<p><a href="" className='text-[#a8a1b3] text-sm hover:text-white transition-colors duration-300 ease-in'>Help Desk	</a></p>
+					<p><a href="" className='text-[#a8a1b3] text-sm hover:text-white transition-colors duration-300 ease-in'>Video Guides</a></p>
+					<p><a href="" className='text-[#a8a1b3] text-sm hover:text-white transition-colors duration-300 ease-in'>Security</a></p>
 				</div>
 			</div>
 			<hr className='opacity-25 border-[#8a6ec2]' />

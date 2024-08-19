@@ -1,4 +1,5 @@
 import AgensySection from "./complonent/agensy-section/AgensySection"
+import Footer from "./complonent/footer/Footer"
 import Hero from "./complonent/hero/Hero"
 import Navbar from "./complonent/navbar/Navbar"
 import SecitonTwo from "./complonent/section2/SecitonTwo"
@@ -18,6 +19,7 @@ function App() {
       <SecitonTwo></SecitonTwo>
       <SectionThree></SectionThree>
       <SectionFour></SectionFour>
+      <Footer></Footer>
      
     </>
   )

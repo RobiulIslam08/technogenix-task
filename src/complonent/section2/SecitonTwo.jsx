@@ -31,7 +31,7 @@ const SecitonTwo = () => {
 				<div className="flex lg:flex-row flex-col lg:w-[89%] w-full mx-auto gap-8">
 
 					{/* left card*/}
-					<div className="bg-[#ffffff] flex lg:flex-row flex-col rounded-[35px] lg:gap-5 gap-20 px-7 py-10">
+					<div className="bg-[#ffffff] hover:shadow-2xl transition-all duration-300 ease-in  hover:shadow-[#c486be83] flex lg:flex-row flex-col rounded-[35px] lg:gap-5 gap-20 px-7 py-10">
 						{/* icon */}
 					
 						<div>
@@ -50,7 +50,7 @@ const SecitonTwo = () => {
 					</div>
 
 					{/* center  card*/}
-					<div className="bg-[#ffffff] flex lg:flex-row flex-col rounded-[35px] lg:gap-5 gap-20 px-7 py-10">
+					<div className="bg-[#ffffff] flex lg:flex-row flex-col rounded-[35px] lg:gap-5 gap-20 px-7 py-10 hover:shadow-2xl transition-all duration-300 ease-in  hover:shadow-[#b5c486a1] ">
 						{/* icon */}
 					
 						<div>
@@ -69,7 +69,7 @@ const SecitonTwo = () => {
 					</div>
 
 					{/* right card*/}
-					<div className="bg-[#ffffff] flex lg:flex-row flex-col rounded-[35px] lg:gap-5 gap-20 px-7 py-10">
+					<div className="bg-[#ffffff] flex lg:flex-row flex-col rounded-[35px] lg:gap-5 gap-20 px-7 py-10 hover:shadow-2xl transition-all duration-300 ease-in  hover:shadow-[#86bdc4a1]">
 						{/* icon */}
 					
 						<div>

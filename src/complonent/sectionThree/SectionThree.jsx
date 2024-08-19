@@ -2,9 +2,9 @@
 import "./sectionThree.css"
 const SectionThree = () => {
 	return (
-		<div className="relative mb-40">
+		<div className="relative mb-16">
 			 <div className="circle"></div>
-			 <div className="circle2"></div>
+			 {/* <div className="circle2"></div> */}
 			<div className="flex  lg:flex-row flex-col justify-between bg-cover bg-left items-center bg-no-repeat  ">
 				{/* left side */}
 				<div className="flex-1 lg:mb-24 relative">

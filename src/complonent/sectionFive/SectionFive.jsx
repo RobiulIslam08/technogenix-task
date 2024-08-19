@@ -3,9 +3,11 @@
 const SectionFive = () => {
 	return (
 		<div>
-			<div className="flex mb-40 lg:flex-row flex-col justify-between bg-cover bg-left items-center bg-no-repeat  ">
+			<div className="flex  mb-40 lg:flex-row flex-col-reverse pt-12 lg:-pt-0 justify-between bg-cover bg-left items-center bg-no-repeat  ">
 				{/* left side */}
 				<div className="flex-1  lg:pr-40  text-center lg:text-left px-5   ">
+					<p className=" rounded-full w-7 h-7 -ml-7 hidden lg:flex bg-[#857fff]"></p>
+					<p className=" rounded-full w-4 h-4 ml-[540px] hidden lg:flex bg-[#f9c45c]"></p>
 					<h1 className="lg:text-[36px] lg:pl-16 pt-24 lg:pt-7 text-[36px]  font-extrabold text-[#2d3958] leading-10">
 					Ready to get started with your new project today?
 					</h1>
@@ -13,28 +15,29 @@ const SectionFive = () => {
 					Identify your authentic brand & shop elements through an in-depth exploration, receive unique strategies to clarify your vision, strengthen differentiation, and prime your company for growth..
 					</p>
 					
-					<form className="max-w-md mx-auto">
+					<form className="lg:max-w-md  mx-auto">
 					<div className="flex">
 						<input
 							type="email"
 							id="email"
-							className="flex-grow py-4 px-4 text-lg font-medium placeholder-[#757575] text-gray-900  bg-[#f4f3f6] npm run dev  focus:outline-none "
+							className="flex-grow lg:py-4 py-2 lg:px-4 px-2 lg:text-lg text-base font-medium placeholder-[#757575] text-gray-900  bg-[#f4f3f6] npm run dev  focus:outline-none "
 							placeholder="Your email address "
 							required
 						/>
 						<button
 							type="submit"
-							className="flex-shrink-0 inline-flex items-center py-2.5 px-8 text-lg font-medium text-white bg-[#4c6fff] border border-blue-500 hover:bg-[#2f1b5f] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+							className="flex-shrink-0 inline-flex items-center lg:py-2.5 py-2 lg:px-8 px-4 lg:text-lg text-base font-medium text-white bg-[#4c6fff] border border-blue-500 hover:bg-[#2f1b5f] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
 						>
 							Sign Up
 						</button>
 					</div>
 				</form>
+				<div className="ml-[474px] -mt-4 hidden lg:flex"><img src="https://i.ibb.co/BgczhYP/contact-0001.png" alt="" /></div>
 				
 					
 				</div>
 				{/* right side */}
-				<div className="flex-1 lg:mb-40 relative border">
+				<div className="flex-1 lg:mb-40 relative ">
 					<img className="lg:px-[75px] px-7" src="https://i.ibb.co/j3R27rt/Img-contact-last.png" alt="dfsdf" />
 					<div className="lg:flex lg:-mt-72">
 

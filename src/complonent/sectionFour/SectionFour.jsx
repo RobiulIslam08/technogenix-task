@@ -1,7 +1,7 @@
 import "./sectionFour.css"
 const SectionFour = () => {
     return (
-        <div className="clip font-sans  bg-gradient-to-r   pb-40 from-[#fad6f021] to-[#dbfdfe]">
+        <div className="clip clip-sm font-sans  bg-gradient-to-r   pb-40 from-[#fad6f021] to-[#dbfdfe]">
             {/* heading */}
             <div className="lg:w-[70%] w-full text-center pb-20  pt-[130px] mx-auto ">
                 <h1 className="text-[36px] text-[#2d3958] font-extrabold">

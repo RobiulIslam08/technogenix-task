@@ -77,7 +77,7 @@ import './agency.css';
 
 const AgensySection = () => {
     return (
-        <div className="relative">
+        <div className="relative pb-36">
             <div className="circle"></div> {/* This is the gradient circle */}
             <div className="md:mt-24 lg:mt-28 mt-20 font-sans  relative z-10">
                 {/* heading */}
@@ -147,7 +147,7 @@ const AgensySection = () => {
 
                             {/* 2nd card */}
                             <div className="lg:w-[40%] w-[80%] ">
-                                <p className="p-6 bg-[#c8cdff] inline-block rounded-full">
+                                <p className="p-6 bg-[#dfe5ff] inline-block rounded-full">
                                     <FiCoffee size={20} className="text-[#8080f1]" />
                                 </p>
                                 <h1 className="pt-7 pb-4 font-bold text-[22px] text-[#2d3958]">Development</h1>

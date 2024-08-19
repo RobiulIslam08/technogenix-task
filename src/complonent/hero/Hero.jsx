@@ -15,7 +15,7 @@ const Hero = () => {
 			<div className='flex  justify-between items-center pt-8 lg:px-20 px-5 '>
 				{/* 1st */}
 				<div className=''>
-					<img src="https://i.ibb.co/2WyvdR9/logo-light.png" alt="" />
+					<img src="https://i.ibb.co/2WyvdR9/logo-light.png" className='' alt="" />
 				</div>
 
 				{/* second */}

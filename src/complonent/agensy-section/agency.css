@@ -6,7 +6,7 @@
 } */
 .circle {
     width: 1000px;
-    height: 800px;
+    height: 400px;
     background: linear-gradient(to left, #d1d0f7, #f7f7ff);
     filter: blur(80px);
     position: absolute;

@@ -9,13 +9,13 @@ import './hero.css';
 const Hero = () => {
 	const [nav, setNav] = useState(false);
 	return (
-		<div className="font-sans lg:h-[548px] bg-hero bg-[#001c7f] lg:bg-[url('https://i.ibb.co/DV2DjX4/agency-bg-hero-min.jpg')]  clip-bottom  bg-cover bg-center  w-full" style={{ backgroundPosition: 'center top -110px' }}>
+		<div className="font-sans lg:h-[548px] bg-hero bg-[#001c7f] lg:bg-[url('https://i.ibb.co/DV2DjX4/agency-bg-hero-min.jpg')]  clip-bottom  bg-cover bg-center  w-full" style={{ backgroundPosition: 'center top -107px' }}>
 
 			{/* navbar */}
-			<div className='flex  justify-between items-center pt-8 lg:px-20 px-5 '>
+			<div className='flex  justify-between items-center pt-[30px] lg:px-20 px-5 '>
 				{/* 1st */}
 				<div className=''>
-					<img src="https://i.ibb.co/2WyvdR9/logo-light.png" className='' alt="" />
+					<img src="https://i.ibb.co/2WyvdR9/logo-light.png" className='lg:w-[180px] w-[120px]' alt="" />
 				</div>
 
 				{/* second */}
@@ -237,7 +237,7 @@ const Hero = () => {
 					<h1 className='lg:text-[68px] text-[42px] font-extrabold text-white leading-none font-sans'>A Design & Branding <br />  Agency in <span className='bg-clip-text text-transparent bg-gradient-to-r from-[#857fff] to-[#ffabe6]'>New York</span>.</h1>
 					<p className='text-white text-lg pt-6'>We’re a digital product and UX agency in New York City. Strategy, design, and <br /> development across all platforms. Digital products that people love to use</p>
 					<div className='lg:flex hidden items-center gap-3 pt-14'>
-						<button className="bg-[#4c6fff] hover:bg-[#4569fa] text-white font-bold lg:py-4 py-3 px-4  lg:px-7 rounded-lg transition-transform transform hover:scale-95">
+						<button className="bg-[#4c6fff] hover:bg-[#4569fa] text-white font-bold lg:py-4 py-3 px-4  lg:px-7 rounded-lg transition-transform transform hover:duration-100 ease-in-out  hover:scale-95">
 							Get Started
 						</button>
 						<div className='flex items-center gap-2'>

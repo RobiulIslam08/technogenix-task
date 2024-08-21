@@ -12,7 +12,7 @@ const SectionFive = () => {
 					Ready to get started with your new project today?
 					</h1>
 					<p className="pb-12 pt-8 lg:pl-16 text-[#7b88a8] text-lg">
-					Identify your authentic brand & shop elements through an in-depth exploration, receive unique strategies to clarify your vision, strengthen differentiation, and prime your company for growth..
+					Identify your authentic brand & shop elements through an in-depth exploration, receive unique strategies to clarify your vision, sstrengthen differentiation, and prime your company for growth..
 					</p>
 					
 					<form className="lg:max-w-md  mx-auto">
